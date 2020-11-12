@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primer_reto</title>
+    <style>
+        h2 {
+            color: #730eb6
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Figures with lines</h2>
+    <p>
+        How many lines do you want put in the picture?
+        <input type="text" id="lineByUser" />
+        <input type="button" value="Ok" id="OklineByUser" />
+    </p>
+    <p>
+        Size fo the Canva
+        <input type="radio"  name="sizeCanva" value="400" checked> 400x400
+        <input type="radio"  name="sizeCanva" value="500" > 500x500
+        <input type="radio"  name="sizeCanva" value="600" > 600x600
+    </p> 
+    <p>
+        What picture?
+        <input type="radio"  name="kindOfPicture" value="flower" checked> Flower
+        <input type="radio"  name="kindOfPicture" value="starsimple" > Star
+        <input type="radio"  name="kindOfPicture" value="star" > Super Star
+    </p>
+    <canvas id="five" width="500" , height="500"> </canvas>
+    <p><strong>Flor</strong></p>
+    <script src="testFlower.js"></script>
+</body>
+
+</html>
